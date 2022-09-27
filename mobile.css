@@ -29,6 +29,7 @@ main{
     max-width: 250px;
     max-height: 500px;
     border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.638);
 
     transition: max-width .3s, max-height .3s;
     transition-timing-function: ease;
@@ -36,6 +37,9 @@ main{
 
 .txt h1{
     margin-bottom: 10px;
+    background-color: #5d0500;
+    color: white;
+    text-indent: 10px;
 }
 
 .txt{
@@ -51,3 +55,54 @@ section.login > div.img{
     border-top-right-radius: 20px;
 }
 
+#iemail{
+    width: 230px;
+    padding: 3px;
+    border-radius: 4px;
+    border: 1px solid grey;
+}
+
+#isenha{
+    width: 230px;
+    padding: 3px;
+    border-radius: 4px;
+    border: 1px solid grey;
+    margin-top: 3px;
+}
+
+#email{
+    width: 230px;
+    border: none;
+    background-color: #f7da59;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 3px;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+
+#senha{
+    width: 230px;
+    border: none;
+    background-color: #ED2218;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 3px;
+    color: white;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+
+#email:hover{
+    color: black;
+    background-color: rgb(206, 206, 206);
+    font-weight: bold;
+    transition: .3s;
+}
+
+#senha:hover{
+    color: black;
+    background-color: rgb(206, 206, 206);
+    font-weight: bold;
+    transition: .3s;
+}

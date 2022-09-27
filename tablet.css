@@ -25,7 +25,27 @@
   }
   .txt {
     position: absolute;
-    top: 40%;
+    top: 35%;
     align-items: center;
+  }
+
+  #iemail{
+    width: 530px;
+    padding: 5px;
+  }
+
+  #isenha{
+    width: 530px;
+    padding: 5px;
+  }
+
+  #email{
+    width: 530px;
+    padding: 5px;
+  }
+
+  #senha{
+    width: 530px;
+    padding: 5px;
   }
 }

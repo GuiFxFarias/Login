@@ -23,10 +23,29 @@
     }
     .txt{
         text-align: justify;
-        margin: 0px 50px;
+        margin: 0px 25px;
         position: absolute;
         top: 40%;
         align-items: center;
         
     }
+    #iemail{
+        width: 450px;
+        padding: 5px;
+      }
+    
+      #isenha{
+        width: 450px;
+        padding: 5px;
+      }
+    
+      #email{
+        width: 450px;
+        padding: 5px;
+      }
+    
+      #senha{
+        width: 450px;
+        padding: 5px;
+      }
 }
