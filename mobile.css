@@ -6,7 +6,7 @@
 }
 
 body, html{
-    background-color: rgb(69, 1, 69);
+    background-color: #5d0500;
     height: 100vh;
     width: 100vw;
 }
@@ -24,9 +24,21 @@ main{
     transform: translate(-50%, -50%);
 
     background-color: white;
-    width: 50%;
-    height: 70%;
+    width: 100%;
+    max-width: 350px;
+    height: 600px;
     border-radius: 20px;
+
+    transition: max-width .3s, max-height .3s;
+    transition-timing-function: ease;
+}
+
+.txt h1{
+    margin-bottom: 10px;
+}
+
+.txt{
+    margin: 10px 10px;
 }
 
 section.login > div.img{
