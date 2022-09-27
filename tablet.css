@@ -1,32 +1,31 @@
-@media screen and (min-width: 750px){
-    
-    body{
-        background-image: linear-gradient(to bottom, #5d0500, #EBC417);
-    }
+@media screen and (min-width: 920px) {
+  body {
+    background-image: linear-gradient(to bottom, #5d0500, #ebc417);
+  }
 
-    .login{
-        margin: auto;
-        max-width: 900px;
-        transition: max-width .5s,
-    }
-    section.login > div.img{
-        float: left;
-        width: 350px;
-        height: 100%;
-        border-radius: 0px;
-        border-top-left-radius: 20px;
-        border-bottom-left-radius: 20px;
-    }
-    .contain{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        height: 100%;
-    }
-    .txt{
-        position: absolute;
-        top: 40%;
-        align-items: center;
-        
-    }
+  .login {
+    margin: auto;
+    max-height: 600px;
+    max-width: 900px;
+    transition: max-width 0.5s, max-height 0.5s;
+  }
+  section.login > div.img {
+    float: left;
+    width: 350px;
+    height: 100%;
+    border-radius: 0px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  .contain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+  }
+  .txt {
+    position: absolute;
+    top: 40%;
+    align-items: center;
+  }
 }

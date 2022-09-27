@@ -5,7 +5,7 @@
     }
 
     .login{
-        max-width: 1200px;
+        max-width: 1100px;
         transition: max-width .5s,
     }
     section.login > div.img{

@@ -25,8 +25,9 @@ main{
 
     background-color: white;
     width: 100%;
-    max-width: 350px;
-    height: 600px;
+    height: 100%;
+    max-width: 250px;
+    max-height: 500px;
     border-radius: 20px;
 
     transition: max-width .3s, max-height .3s;
