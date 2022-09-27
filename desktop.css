@@ -22,6 +22,8 @@
         height: 100%;
     }
     .txt{
+        text-align: justify;
+        margin: 0px 50px;
         position: absolute;
         top: 40%;
         align-items: center;
