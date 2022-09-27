@@ -17,14 +17,15 @@ main{
 }
 
 .login{
+    overflow: hidden;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 
     background-color: white;
-    width: 30%;
-    height: 30%;
+    width: 50%;
+    height: 70%;
     border-radius: 20px;
 }
 
