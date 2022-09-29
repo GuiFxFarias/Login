@@ -26,6 +26,7 @@
         margin: 0px 25px;
         position: absolute;
         top: 40%;
+        transition: .3s;
         align-items: center;
         
     }
