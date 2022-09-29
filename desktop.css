@@ -33,12 +33,14 @@
         width: 450px;
         padding: 5px;
         box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.282);
+        transition: .3s;
       }
     
       #isenha{
         width: 450px;
         padding: 5px;
         box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.282);
+        transition: .3s;
       }
     
       #email{

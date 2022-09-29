@@ -32,11 +32,13 @@
   #iemail{
     width: 530px;
     padding: 5px;
+    transition: .3s;
   }
 
   #isenha{
     width: 530px;
     padding: 5px;
+    transition: .3s;
   }
 
   #email{
